@@ -385,7 +385,7 @@ static void draw_callback(Canvas* canvas, void* ctx) {
 
     canvas_set_font(canvas, FontSecondary);
     canvas_draw_icon(canvas, 4, 3, protocol ? protocol->icon : &I_ble);
-    canvas_draw_str(canvas, 14, 12, "BLE Spam");
+    canvas_draw_str(canvas, 14, 12, "Mouton's BLE Spam");
 
     switch(state->index) {
     case PageHelpApps:
